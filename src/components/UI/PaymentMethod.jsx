@@ -9,13 +9,13 @@ const PaymentMethod = () => {
     <>
       <div className="payment">
         <label htmlFor="" className="d-flex align-items-center gap-2">
-          <input type="radio" /> Direct Bank Transfer
+          <input type="radio" /> Virement bancaire direct
         </label>
       </div>
 
       <div className="payment mt-3">
         <label htmlFor="" className="d-flex align-items-center gap-2">
-          <input type="radio" /> Cheque Payment
+          <input type="radio" /> Paiement par chèque
         </label>
       </div>
 

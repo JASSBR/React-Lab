@@ -9,52 +9,38 @@ const BookingForm = () => {
   return (
     <Form onSubmit={submitHandler}>
       <FormGroup className="booking__form d-inline-block me-4 mb-4">
-        <input type="text" placeholder="First Name" />
+        <input type="text" placeholder="Prénom" />
       </FormGroup>
       <FormGroup className="booking__form d-inline-block ms-1 mb-4">
-        <input type="text" placeholder="Last Name" />
+        <input type="text" placeholder="Nom" />
       </FormGroup>
 
       <FormGroup className="booking__form d-inline-block me-4 mb-4">
         <input type="email" placeholder="Email" />
       </FormGroup>
       <FormGroup className="booking__form d-inline-block ms-1 mb-4">
-        <input type="number" placeholder="Phone Number" />
+        <input type="number" placeholder="Numero Tél" />
       </FormGroup>
 
+      
       <FormGroup className="booking__form d-inline-block me-4 mb-4">
-        <input type="text" placeholder="From Address" />
-      </FormGroup>
-      <FormGroup className="booking__form d-inline-block ms-1 mb-4">
-        <input type="text" placeholder="To Address" />
-      </FormGroup>
-
-      <FormGroup className="booking__form d-inline-block me-4 mb-4">
-        <select name="" id="">
-          <option value="1 person">1 Person</option>
-          <option value="2 person">2 Person</option>
-          <option value="3 person">3 Person</option>
-          <option value="4 person">4 Person</option>
-          <option value="5+ person">5+ Person</option>
-        </select>
-      </FormGroup>
-      <FormGroup className="booking__form d-inline-block ms-1 mb-4">
-        <select name="" id="">
-          <option value="1 luggage">1 luggage</option>
-          <option value="2 luggage">2 luggage</option>
-          <option value="3 luggage">3 luggage</option>
-          <option value="4 luggage">4 luggage</option>
-          <option value="5+ luggage">5+ luggage</option>
-        </select>
-      </FormGroup>
-
-      <FormGroup className="booking__form d-inline-block me-4 mb-4">
-        <input type="date" placeholder="Journey Date" />
+        <input type="date" placeholder="Date debut" />
       </FormGroup>
       <FormGroup className="booking__form d-inline-block ms-1 mb-4">
         <input
           type="time"
-          placeholder="Journey Time"
+          placeholder="Temps recevoir"
+          className="time__picker"
+        />
+      </FormGroup>
+
+      <FormGroup className="booking__form d-inline-block me-4 mb-4">
+        <input type="date" placeholder="Date fin" />
+      </FormGroup>
+      <FormGroup className="booking__form d-inline-block ms-1 mb-4">
+        <input
+          type="time"
+          placeholder="temp revenir"
           className="time__picker"
         />
       </FormGroup>
@@ -64,7 +50,7 @@ const BookingForm = () => {
           rows={5}
           type="textarea"
           className="textarea"
-          placeholder="Write"
+          placeholder="Ecrire"
         ></textarea>
       </FormGroup>
     </Form>

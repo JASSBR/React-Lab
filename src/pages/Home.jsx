@@ -24,7 +24,7 @@ const Home = () => {
             <Row className="form__row">
               <Col lg="4" md="4">
                 <div className="find__cars-left">
-                  <h2 className="FindCar">Rechercher dans nos produits</h2>
+                  <h2 className="FindCar"></h2>
                 </div>
               </Col>
 
@@ -65,7 +65,6 @@ const Home = () => {
           </Row>
         </Container>
       </section>
-      {/* =========== become a driver section ============ */}
 
       {/* =========== testimonial section =========== */}
       <section>

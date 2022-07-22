@@ -20,36 +20,25 @@ const AboutSection = ({ aboutClass }) => {
               <h4 className="section__subtitle">À propos de nous</h4>
               <h2 className="section__title">Bienvenue à Notre service de location de voitures</h2>
               <p className="section__description">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                Voluptatum blanditiis esse accusantium dignissimos labore
-                laborum. Veniam, corporis mollitia temporibus, in quaerat vero
-                deleniti amet dolorem repudiandae, pariatur nam dolore! Impedit
-                neque sit ad temporibus quam similique dolor ipsam praesentium
-                sunt.
+              La location d'une voiture, c'est la liberté... et nous sommes là pour vous aider à dénicher le véhicule idéal à un prix défiant toute concurrence. Mais ce n'est pas tout : nous œuvrons pour faire de la location d'une voiture une expérience tout en douceur, voire inoubliable.
               </p>
 
               <div className="about__section-item d-flex align-items-center">
                 <p className="section__description d-flex align-items-center gap-2">
-                  <i class="ri-checkbox-circle-line"></i> Lorem ipsum dolor sit
-                  amet.
+                  <i class="ri-checkbox-circle-line" style={{ marginTop: "-3.5rem" }}></i> Nous savons que le service dont vous bénéficiez importe au plus haut point
                 </p>
 
                 <p className="section__description d-flex align-items-center gap-2">
-                  <i class="ri-checkbox-circle-line"></i> Lorem ipsum dolor sit
-                  amet.
+                  <i class="ri-checkbox-circle-line" style={{ marginTop: "-3.5rem" }}></i> Nous travaillons avec des sociétés de location de voitures partout dans le monde
                 </p>
               </div>
 
               <div className="about__section-item d-flex align-items-center">
                 <p className="section__description d-flex align-items-center gap-2">
-                  <i class="ri-checkbox-circle-line"></i> Lorem ipsum dolor sit
-                  amet.
+                  <i class="ri-checkbox-circle-line"></i> Et nous restons avec vous à chaque étape
                 </p>
 
-                <p className="section__description d-flex align-items-center gap-2">
-                  <i class="ri-checkbox-circle-line"></i> Lorem ipsum dolor sit
-                  amet.
-                </p>
+                
               </div>
             </div>
           </Col>

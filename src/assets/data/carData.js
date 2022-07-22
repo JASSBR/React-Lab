@@ -7,6 +7,12 @@ import img05 from "../all-images/cars-img/offer-toyota.png";
 import img06 from "../all-images/cars-img/mercedes-offer.png";
 import img07 from "../all-images/cars-img/toyota-offer-2.png";
 import img08 from "../all-images/cars-img/mercedes-offer.png";
+import img09 from "../all-images/cars-img/buggati.png";
+import img10 from "../all-images/cars-img/lamborghini.png";
+import img11 from "../all-images/cars-img/Mercedes-X5.png";
+import img12 from "../all-images/cars-img/Audi-A6.png";
+import img13 from "../all-images/cars-img/audi-A7.png";
+
 
 const carData = [
   {
@@ -19,7 +25,7 @@ const carData = [
     price: 500,
     speed: "300KM/H",
     gps: "GPS Navigation",
-    seatType: "Heated seats",
+    seatType: "Sièges chauffants",
     Automatique: "Automatique",
     description:
       " Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam. Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam.",
@@ -35,7 +41,7 @@ const carData = [
     price: 500,
     speed: "300KM/H",
     gps: "GPS Navigation",
-    seatType: "Heated seats",
+    seatType: "Sièges chauffants",
     Automatique: "Automatique",
     description:
       " Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam. Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam.",
@@ -51,7 +57,7 @@ const carData = [
     price: 650,
     speed: "300KM/H",
     gps: "GPS Navigation",
-    seatType: "Heated seats",
+    seatType: "Sièges chauffants",
     Automatique: "Automatique",
     description:
       " Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam. Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam.",
@@ -67,7 +73,7 @@ const carData = [
     price: 700,
     speed: "300KM/H",
     gps: "GPS Navigation",
-    seatType: "Heated seats",
+    seatType: "Sièges chauffants",
     Automatique: "Automatique",
     description:
       " Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam. Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam.",
@@ -83,7 +89,7 @@ const carData = [
     price: 450,
     speed: "300KM/H",
     gps: "GPS Navigation",
-    seatType: "Heated seats",
+    seatType: "Sièges chauffants",
     Automatique: "Automatique",
     description:
       " Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam. Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam.",
@@ -99,7 +105,7 @@ const carData = [
     price: 850,
     speed: "300KM/H",
     gps: "GPS Navigation",
-    seatType: "Heated seats",
+    seatType: "Sièges chauffants",
     Automatique: "Automatique",
     description:
       " Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam. Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam.",
@@ -115,7 +121,7 @@ const carData = [
     price: 500,
     speed: "300KM/H",
     gps: "GPS Navigation",
-    seatType: "Heated seats",
+    seatType: "Sièges chauffants",
     Automatique: "Automatique",
     description:
       " Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam. Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam.",
@@ -131,7 +137,78 @@ const carData = [
     price: 500,
     speed: "300KM/H",
     gps: "GPS Navigation",
-    seatType: "Heated seats",
+    seatType: "Sièges chauffants",
+    Automatique: "Automatique",
+    description:
+      " Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam. Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam.",
+  },
+  {
+    id: 9,
+    brand: "Buggati",
+    rating: 52,
+    carName: "Buggati CLE",
+    imgUrl: img09,
+    model: "Model 2022",
+    price: 900,
+    speed: "300KM/H",
+    gps: "GPS Navigation",
+    seatType: "Sièges chauffants",
+    Automatique: "Automatique",
+    description:
+      " Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam. Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam.",
+  },{
+    id: 10,
+    brand: "Lamborghini",
+    rating: 52,
+    carName: "Lamborghini sport",
+    imgUrl: img10,
+    model: "Model 2021",
+    price: 1000,
+    speed: "300KM/H",
+    gps: "GPS Navigation",
+    seatType: "Sièges chauffants",
+    Automatique: "Automatique",
+    description:
+      " Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam. Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam.",
+  },{
+    id: 11,
+    brand: "Mercedes",
+    rating: 52,
+    carName: "Mercedes X5",
+    imgUrl: img11,
+    model: "Model 2019",
+    price: 500,
+    speed: "300KM/H",
+    gps: "GPS Navigation",
+    seatType: "Sièges chauffants",
+    Automatique: "Automatique",
+    description:
+      " Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam. Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam.",
+  },{
+    id: 12,
+    brand: "Audi",
+    rating: 52,
+    carName: "Audi A6 2020",
+    imgUrl: img12,
+    model: "Model 2020",
+    price: 500,
+    speed: "300KM/H",
+    gps: "GPS Navigation",
+    seatType: "Sièges chauffants",
+    Automatique: "Automatique",
+    description:
+      " Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam. Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam.",
+  },{
+    id: 13,
+    brand: "Audi",
+    rating: 52,
+    carName: "Audi A7 2021",
+    imgUrl: img13,
+    model: "Model 2021",
+    price: 500,
+    speed: "300KM/H",
+    gps: "GPS Navigation",
+    seatType: "Sièges chauffants",
     Automatique: "Automatique",
     description:
       " Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam. Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam.",

@@ -11,7 +11,7 @@ import "../styles/about.css";
 const About = () => {
   return (
     <Helmet title="About">
-      <CommonSection title="About Us" />
+      <CommonSection title="À propos de nous" />
       <AboutSection aboutClass="aboutPage" />
 
       <section className="about__page-section">
@@ -30,17 +30,11 @@ const About = () => {
                 </h2>
 
                 <p className="section__description">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Eveniet veniam assumenda aperiam accusantium ex autem
-                  perferendis repellendus nostrum delectus. Nemo et dolore est
-                  tempore rem minima adipisci magni dolorum ipsam.
+                Cette sensation incroyable – vous démarrez et l'aventure commence...
                 </p>
 
                 <p className="section__description">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Eveniet veniam assumenda aperiam accusantium ex autem
-                  perferendis repellendus nostrum delectus. Nemo et dolore est
-                  tempore rem minima adipisci magni dolorum ipsam.
+                Chez Nous, notre obsession, c'est de vous donner la liberté de découvrir davantage. Nous sommes prêts à déplacer des montagnes pour vous trouver la bonne voiture et vous offrir une expérience de location inoubliable, de bout en bout. Ici, vous pouvez en savoir plus sur notre façon de travailler.
                 </p>
 
                 <div className=" d-flex align-items-center gap-3 mt-4">
