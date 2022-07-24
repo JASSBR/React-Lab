@@ -53,7 +53,7 @@ const Footer = () => {
 
           <Col lg="2" md="4" sm="6">
             <div className="mb-4">
-              <h5 className="footer__link-title">Quick Links</h5>
+              <h5 className="footer__link-title">Navigation</h5>
               <ListGroup>
                 {quickLinks.map((item, index) => (
                   <ListGroupItem key={index} className="p-0 mt-3 quick__link">
@@ -66,7 +66,7 @@ const Footer = () => {
 
           <Col lg="3" md="4" sm="6">
             <div className="mb-4">
-              <h5 className="footer__link-title mb-4">Head Office</h5>
+              <h5 className="footer__link-title mb-4">Siège social</h5>
               <p className="office__info">45,Hay el Fath,Temara, Maroc</p>
               <p className="office__info">Phone: +0995345875365</p>
 

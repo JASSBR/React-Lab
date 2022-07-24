@@ -40,7 +40,7 @@ const Testimonial = () => {
     <Slider {...settings}>
       <div className="testimonial py-4 px-3">
         <p className="section__description">
-        Merci pour votre professionnalisme et votre enthousiasme. Bon courage à vous.                                                       
+        Merci pour votre professionnalisme et votre enthousiasme. Bon courage à vous.                                                                                                   
         </p>
 
         <div className="mt-3 d-flex align-items-center gap-4">
@@ -55,7 +55,7 @@ const Testimonial = () => {
 
       <div className="testimonial py-4 px-3">
         <p className="section__description">
-        Vraiment la vraie surprise . Bravo team, Qualite d assistance, qualité d expertise et suivi rigoureux de votre dossier.
+        Vraiment la vraie surprise . Bravo team, Qualite d assistance, qualité d expertise et suivi rigoureux de votre dossier.            
         </p>
 
         <div className="mt-3 d-flex align-items-center gap-4">
@@ -70,7 +70,7 @@ const Testimonial = () => {
 
       <div className="testimonial py-4 px-3">
         <p className="section__description">
-        Excellent service. Rapide et efficace ! Je recommande Merci à l'équipe                                                           
+        Excellent service. Rapide et efficace ! Je recommande Merci à l'équipe                                                                                                                     
         </p>
 
         <div className="mt-3 d-flex align-items-center gap-4">
