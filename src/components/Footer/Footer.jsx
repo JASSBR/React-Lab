@@ -68,7 +68,7 @@ const Footer = () => {
             <div className="mb-4">
               <h5 className="footer__link-title mb-4">Siège social</h5>
               <p className="office__info">45,Hay el Fath,Temara, Maroc</p>
-              <p className="office__info">Phone: +0995345875365</p>
+              <p className="office__info">Tél: +212608822773</p>
 
               <p className="office__info">Email: Yassirsabbar1@gmail.com</p>
 
